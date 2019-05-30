@@ -4,13 +4,13 @@
 
 ## Version
 
-    - xtensa gcc: 1.22.0-80-g6c4433a-5.2.0
-    - esp-idf: v3.2
+- xtensa gcc: 1.22.0-80-g6c4433a-5.2.0
+- esp-idf: v3.2
 
 ## Install Oracle VM VirtualBox and Vagrant
 
-    - [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-    - [Vagrant](https://www.vagrantup.com/downloads.html)
+- [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- [Vagrant](https://www.vagrantup.com/downloads.html)
 
 ## Get Started
 
@@ -70,7 +70,7 @@ Add box:
 
     vagrant box add --name 'ubuntu/bionic64' bionic-server-cloudimg-amd64-vagrant.box
 
-## Use Ubuntu APT Source， PIP Mirror (Optional)
+## Use Ubuntu APT Source, PIP Mirror (Optional)
 
 Copy `vagrant.example.yml` to `vagrant.yml` before `vagrant up`:
 

@@ -4,13 +4,13 @@
 
 ## 版本
 
-    - xtensa gcc: 1.22.0-80-g6c4433a-5.2.0
-    - esp-idf: v3.2
+- xtensa gcc: 1.22.0-80-g6c4433a-5.2.0
+- esp-idf: v3.2
 
 ## 安装 Oracle VM VirtualBox 和 Vagrant
 
-    - [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-    - [Vagrant](https://www.vagrantup.com/downloads.html)
+- [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- [Vagrant](https://www.vagrantup.com/downloads.html)
 
 ## 开始
 
