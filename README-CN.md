@@ -82,3 +82,13 @@ usbfilters:
 apt_source: cn.archive.ubuntu.com
 pip_simple: https://pypi.doubanio.com/simple/
 ```
+
+## FAQ
+
+1. 首次运行 `vagrant up` 后，直接直接执行 `idf.py -p /dev/ttyUSB0 flash` 出现报错：
+
+    [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+这是因为安装支持 USB 串口的 `linux-image-extra-virtual` 包需要重启系统后才有效。请执行：
+
+    vagrant reload

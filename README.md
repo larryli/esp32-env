@@ -82,3 +82,13 @@ Edit `vagrant.yml`:
 apt_source: cn.archive.ubuntu.com
 pip_simple: https://pypi.doubanio.com/simple/
 ```
+
+## FAQ
+
+1. Exec `idf.py -p /dev/ttyUSB0 flash` get error message after first `vagrant up`:
+
+    [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+This is because the `linux-image-extra-virtual` package required to restart the system that supports the USB serial controller. Please run:
+
+    vagrant reload
