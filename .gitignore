@@ -1,0 +1,9 @@
+*
+!.gitignore
+!.gitmodules
+!esp-idf
+!LICENSE
+!README-CN.md
+!README.md
+!vagrant.example.yml
+!Vagrantfile
