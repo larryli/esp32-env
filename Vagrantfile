@@ -4,9 +4,11 @@
 require 'yaml'
 require 'fileutils'
 
+dir = File.dirname(File.expand_path(__FILE__))
+
 config = {
-  local: './vagrant.yml',
-  example: './vagrant.example.yml'
+  local: "#{dir}/vagrant.yml",
+  example: "#{dir}/vagrant.example.yml"
 }
 
 # copy config from example if local config not exists
